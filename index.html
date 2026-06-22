@@ -1094,19 +1094,21 @@
 
   document.getElementById('cartOpenBtn').addEventListener('click', openCart);
 
+  let cotCounter = 0;
+
   function sendWA() {
     const entries = Object.entries(cart);
     if (entries.length === 0) return;
 
+    cotCounter++;
     const now = new Date();
     const fecha = now.toLocaleDateString('es-MX', { day: 'numeric', month: 'long', year: 'numeric' });
-    const cotNum = 'COT-' + String(now.getTime()).slice(-3).padStart(3, '0');
+    const cotNum = 'COT-' + String(cotCounter).padStart(3, '0');
     const sep = '━━━━━━━━━━━━━━━━━━━━━━';
     const tierLabel = TIER_LABELS[currentTier];
 
-    let msg = `🏋️ POWER REAXION — Suplementos Deportivos\n`;
+    let msg = `*🏋️ POWER REAXION — Suplementos Deportivos*\n`;
     msg += `📋 ${cotNum} | ${fecha}\n`;
-    msg += `💰 Precio: ${tierLabel}\n`;
     msg += `${sep}\n`;
 
     let i = 1;
@@ -1114,15 +1116,16 @@
       const p = productos.find(x => x.nombre === nombre);
       if (!p) return;
       const unit = p[currentTier];
-      msg += `${i}. ${p.nombre}\n   ${qty} pza × ${fmt(unit)} = ${fmt(unit * qty)}\n`;
+      msg += `${i}. ${p.nombre}\n   ${qty} pza × ${fmt(unit)} (${tierLabel}) = ${fmt(unit * qty)}\n`;
       i++;
     });
 
     const total = cartTotal();
     const count = Object.values(cart).reduce((a, b) => a + b, 0);
+    const totalFmt = total.toLocaleString('es-MX', { style: 'currency', currency: 'MXN', minimumFractionDigits: 2 });
     msg += `${sep}\n`;
     msg += `📦 ${count} producto${count !== 1 ? 's' : ''}\n`;
-    msg += `✅ TOTAL: ${fmt(total)}\n`;
+    msg += `✅ *TOTAL: ${totalFmt}*\n`;
     msg += `Cotización válida por 7 días · Precios en MXN`;
 
     const url = `https://wa.me/?text=${encodeURIComponent(msg)}`;
