@@ -1,5 +1,5 @@
 const productos = [
-  { nombre: "43 BCAA + GLUTAMINA", categoria: "AMINOACIDOS/GLUTAMINAS", marca: "43 SUPPLEMENTS", imagen: "BCAA_GLUTA.png", menudeo: 390, mayoreo3k: 255, mayoreo6k: 237 },
+  { nombre: "43 BCAA + GLUTAMINA", categoria: "AMINOACIDOS/GLUTAMINAS", marca: "43 SUPPLEMENTS", imagen: "43_BCAA_+_GLUTAMINA.png", menudeo: 390, mayoreo3k: 255, mayoreo6k: 237 },
   { nombre: "43 GAINER", categoria: "GANADORES DE PESO", marca: "43 SUPPLEMENTS", imagen: "43_GAINER.png" , menudeo: 850, mayoreo3k: 680, mayoreo6k: 660 },
   { nombre: "43 RODILLERAS", categoria: "ACCESORIOS", marca: "43 SUPPLEMENTS", imagen: "43_RODILLERAS.png", menudeo: 350, mayoreo3k: 240, mayoreo6k: 225 },
   { nombre: "43 WHEY COSTAL", categoria: "PROTEINAS", marca: "43 SUPPLEMENTS", imagen: "43_WHEY.png", menudeo: 585, mayoreo3k: 425, mayoreo6k: 407 },
@@ -144,7 +144,7 @@ const productos = [
   { nombre: "L CARNITINA GAT CAPS", categoria: "QUEMADORES", marca: "GAT SPORT", imagen: "L-CARNITINA.png", menudeo: 340, mayoreo3k: 227, mayoreo6k: 212 },
   { nombre: "L CARNITINA ULTRA LIQUIDA", categoria: "QUEMADORES", marca: "BHP", imagen: "L-CARNITINA.png", menudeo: 290, mayoreo3k: 185, mayoreo6k: 173 },
   { nombre: "LIPO 6 BLACK HERS 60 CAPS", categoria: "QUEMADORES", marca: "NUTREX", imagen: "LIPO_6_BLACK_HERS_60_CAPS.png", menudeo: 440, mayoreo3k: 301, mayoreo6k: 286 },
-  { nombre: "LIPO 6 BLACK ROJO 120 CAPS", categoria: "QUEMADORES", marca: "NUTREX", imagen: "LIPO_6_BLACK.png", menudeo: 440, mayoreo3k: 308, mayoreo6k: 293 },
+  { nombre: "LIPO 6 BLACK ROJO 120 CAPS", categoria: "QUEMADORES", marca: "NUTREX", imagen: "LIPO_6_BLACK_ROJO_120_CAPS.png", menudeo: 440, mayoreo3k: 308, mayoreo6k: 293 },
   { nombre: "LIPODRENE AMARILLO", categoria: "QUEMADORES", marca: "HTP", imagen: "LIPODRENE_AMARILLO.png", menudeo: 600, mayoreo3k: 458, mayoreo6k: 443 },
   { nombre: "LIPODRENE NEGRO", categoria: "QUEMADORES", marca: "HTP", imagen: "LIPODRENE_NEGRO.png", menudeo: 600, mayoreo3k: 459, mayoreo6k: 444 },
   { nombre: "LIPODRENE VERDE", categoria: "QUEMADORES", marca: "HTP", imagen: "LIPODRENE_VERDE.png", menudeo: 600, mayoreo3k: 456, mayoreo6k: 441 },
