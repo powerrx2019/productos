@@ -1097,14 +1097,34 @@
   function sendWA() {
     const entries = Object.entries(cart);
     if (entries.length === 0) return;
-    let msg = `*Cotización POWERX* (${TIER_LABELS[currentTier]})\n\n`;
+
+    const now = new Date();
+    const fecha = now.toLocaleDateString('es-MX', { day: 'numeric', month: 'long', year: 'numeric' });
+    const cotNum = 'COT-' + String(now.getTime()).slice(-3).padStart(3, '0');
+    const sep = '━━━━━━━━━━━━━━━━━━━━━━';
+    const tierLabel = TIER_LABELS[currentTier];
+
+    let msg = `🏋️ POWER REAXION — Suplementos Deportivos\n`;
+    msg += `📋 ${cotNum} | ${fecha}\n`;
+    msg += `💰 Precio: ${tierLabel}\n`;
+    msg += `${sep}\n`;
+
+    let i = 1;
     entries.forEach(([nombre, qty]) => {
       const p = productos.find(x => x.nombre === nombre);
       if (!p) return;
       const unit = p[currentTier];
-      msg += `• ${p.nombre} x${qty} — ${fmt(unit)} c/u = ${fmt(unit * qty)}\n`;
+      msg += `${i}. ${p.nombre}\n   ${qty} pza × ${fmt(unit)} = ${fmt(unit * qty)}\n`;
+      i++;
     });
-    msg += `\n*Total: ${fmt(cartTotal())}*`;
+
+    const total = cartTotal();
+    const count = Object.values(cart).reduce((a, b) => a + b, 0);
+    msg += `${sep}\n`;
+    msg += `📦 ${count} producto${count !== 1 ? 's' : ''}\n`;
+    msg += `✅ TOTAL: ${fmt(total)}\n`;
+    msg += `Cotización válida por 7 días · Precios en MXN`;
+
     const url = `https://wa.me/?text=${encodeURIComponent(msg)}`;
     window.open(url, '_blank');
   }
