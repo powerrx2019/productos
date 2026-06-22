@@ -1116,7 +1116,7 @@
       const p = productos.find(x => x.nombre === nombre);
       if (!p) return;
       const unit = p[currentTier];
-      msg += `${i}. ${p.nombre}\n   ${qty} pza × ${fmt(unit)} (${tierLabel}) = ${fmt(unit * qty)}\n`;
+      msg += `*${i}. ${p.nombre}*\n   *${qty} pza* × *${fmt(unit)}* (${tierLabel}) = *${fmt(unit * qty)}*\n`;
       i++;
     });
 
