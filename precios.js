@@ -69,7 +69,7 @@ const productos = [
   { nombre: "CBUM ESSENTIAL CHICO", categoria: "PRE ENTRENOS", marca: "RAW", imagen: "CBUM_ESSENTIAL_CHICO.png", menudeo: 490, mayoreo3k: 375, mayoreo6k: 360 },
   { nombre: "CBUM ITHOLATE CHICA", categoria: "PROTEINAS", marca: "RAW", imagen: "CBUM_ITHOLATE_CHICA.png", menudeo: 840, mayoreo3k: 749, mayoreo6k: 737 },
   { nombre: "CBUM ITHOLATE GRANDE", categoria: "PROTEINAS", marca: "RAW", imagen: "CBUM_ITHOLATE_GRANDE.png", menudeo: 1640, mayoreo3k: 1509, mayoreo6k: 1494 },
-  { nombre: "CELL TECH 3 LBS", categoria: "CREATINAS", marca: "MUSCLETECH", imagen: "CELL_TECH_3LBS", menudeo: 590, mayoreo3k: 478, mayoreo6k: 463 },
+  { nombre: "CELL TECH 3LBS", categoria: "CREATINAS", marca: "MUSCLETECH", imagen: "CELL_TECH_3LBS", menudeo: 590, mayoreo3k: 478, mayoreo6k: 463 },
   { nombre: "CELL TECH 6LBS", categoria: "CREATINAS", marca: "MUSCLETECH", imagen: "CELL_TECH_6LBS.png", menudeo: 850, mayoreo3k: 699, mayoreo6k: 681 },
   { nombre: "CELL TECH CREACTOR", categoria: "CREATINAS", marca: "MUSCLETECH", imagen: "CELL-TECH_CREACTOR.png", menudeo: 500, mayoreo3k: 374, mayoreo6k: 359 },
   { nombre: "CINTURON", categoria: "ACCESORIOS", marca: "-", imagen: "CINTURON.png", menudeo: 500, mayoreo3k: 390, mayoreo6k: 375 },
