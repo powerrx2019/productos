@@ -138,7 +138,7 @@ const productos = [
   { nombre: "JOINT SUPPORT GAT", categoria: "COLAGENOS", marca: "GAT SPORT", imagen: "JOINT_SUPPORT.png", menudeo: 380, mayoreo3k: 296, mayoreo6k: 284 },
   { nombre: "L ARGININA GAT", categoria: "PRE ENTRENOS", marca: "GAT SPORT", imagen: "L-ARGININA.png", menudeo: 400, mayoreo3k: 314, mayoreo6k: 302 },
   { nombre: "L CARNITINA GAT CAPS", categoria: "QUEMADORES", marca: "GAT SPORT", imagen: "L-CARNITINA.png", menudeo: 340, mayoreo3k: 227, mayoreo6k: 212 },
-  { nombre: "L CARNITINA ULTRA LIQUIDA", categoria: "QUEMADORES", marca: "BHP", imagen: "L-CARNITINA.png", menudeo: 290, mayoreo3k: 185, mayoreo6k: 173 },
+  { nombre: "L CARNITINA ULTRA LIQUIDA", categoria: "QUEMADORES", marca: "BHP", imagen: "L-CARNITINA_ULTRA.png", menudeo: 290, mayoreo3k: 185, mayoreo6k: 173 },
   { nombre: "LIPO 6 BLACK HERS 60 CAPS", categoria: "QUEMADORES", marca: "NUTREX", imagen: "LIPO_6_BLACK_HERS_60_CAPS.png", menudeo: 440, mayoreo3k: 301, mayoreo6k: 286 },
   { nombre: "LIPO 6 BLACK ROJO 120 CAPS", categoria: "QUEMADORES", marca: "NUTREX", imagen: "LIPO_6_BLACK.png", menudeo: 440, mayoreo3k: 308, mayoreo6k: 293 },
   { nombre: "LIPODRENE AMARILLO", categoria: "QUEMADORES", marca: "HTP", imagen: "LIPODRENE_AMARILLO.png", menudeo: 600, mayoreo3k: 458, mayoreo6k: 443 },
