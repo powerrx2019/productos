@@ -49,6 +49,7 @@ const productos = [
   { nombre: "BLIFE MYO INOSITOL", categoria: "OTROS", marca: "BLIFE", imagen: "BLIFE_INOSITOL.png", menudeo: 290, mayoreo3k: 196, mayoreo6k: 184 },
   { nombre: "BLIFE OMEGA 3 CHICO", categoria: "VITAMINAS", marca: "BLIFE", imagen: "BLIFE_OMEGA_3_CHICO.png", menudeo: 330, mayoreo3k: 220, mayoreo6k: 205 },
   { nombre: "BLIFE OMEGA 3 GRANDE", categoria: "VITAMINAS", marca: "BLIFE", imagen: "BLIFE_OMEGA_3_GRANDE.png", menudeo: 480, mayoreo3k: 356, mayoreo6k: 341 },
+  { nombre: "BLIFE OMEGA 3 PLATINUM", categoria: "VITAMINAS", marca: "BLIFE", imagen: "", menudeo: 370, mayoreo3k: 264, mayoreo6k: 249 },
   { nombre: "BLIFE RESVERATROL", categoria: "OTROS", marca: "BLIFE", imagen: "BLIFE_RESVERATROL.png", menudeo: 320, mayoreo3k: 235, mayoreo6k: 223 },
   { nombre: "BLIFE TRIBULUS", categoria: "PRECURSORES", marca: "BLIFE", imagen: "BLIFE_TRIBULUS.png", menudeo: 350, mayoreo3k: 278, mayoreo6k: 266 },
   { nombre: "BLIFE VITAMINA E+BIOTINA", categoria: "VITAMINAS", marca: "BLIFE", imagen: "BLIFE_VITAMINA_E_BIOTINA.png", menudeo: 360, mayoreo3k: 278, mayoreo6k: 266 },
