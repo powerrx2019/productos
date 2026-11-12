@@ -98,7 +98,7 @@ const productos = [
   { nombre: "DEFIT FIT FEMME", categoria: "PROTEINAS", marca: "DEFIT", imagen: "DEFIT_FIT_FEMME.png", menudeo: 350, mayoreo3k: 205, mayoreo6k: 190 },
   { nombre: "DEFIT ISOLATE WHEY CHICA", categoria: "PROTEINAS", marca: "DEFIT", imagen: "DEFIT_ISOLATE_WHEY_CHICA.png", menudeo: 330, mayoreo3k: 205, mayoreo6k: 190 },
   { nombre: "DEFIT ISOLATE WHEY GRANDE", categoria: "PROTEINAS", marca: "DEFIT", imagen: "DEFIT_ISOLATE_WHEY_GRANDE.png", menudeo: 620, mayoreo3k: 445, mayoreo6k: 425 },
-  { nombre: "DEFIT ISOLATE BOTE 4.5 LBS", categoria: "PROTEINAS", marca: "DEFIT", imagen: "", menudeo: 720, mayoreo3k: 560, mayoreo6k: 540 },
+  { nombre: "DEFIT ISOLATE BOTE 4.5 LBS", categoria: "PROTEINAS", marca: "DEFIT", imagen: "DEFIT_ISOLATE_BOTE_4.5_LBS.png", menudeo: 720, mayoreo3k: 560, mayoreo6k: 540 },
   { nombre: "DEFIT PEPTONAS", categoria: "OTROS", marca: "DEFIT", imagen: "DEFIT_PEPTONAS.png", menudeo: 450, mayoreo3k: 285, mayoreo6k: 265 },
   { nombre: "DEMON BCAA", categoria: "AMINOACIDOS", marca: "INSANE", imagen: "DEMON_BCAA.png", menudeo: 490, mayoreo3k: 348, mayoreo6k: 330 },
   { nombre: "DEMON DUST", categoria: "PRE ENTRENOS", marca: "INSANE", imagen: "DEMON_DUST.png", menudeo: 430, mayoreo3k: 289, mayoreo6k: 274 },
