@@ -28,7 +28,7 @@ const productos = [
   { nombre: "BLIFE ACIDO ALFA LIPOICO", categoria: "OTROS", marca: "BLIFE", imagen: "BLIFE_ACIDO_ALFA_LIPOICO.png", menudeo: 480, mayoreo3k: 380, mayoreo6k: 368 },
   { nombre: "BLIFE ASHWAGANDA", categoria: "OTROS", marca: "BLIFE", imagen: "BLIFE_ASHWAGANDA.png", menudeo: 390, mayoreo3k: 288, mayoreo6k: 273 },
   { nombre: "BLIFE B YEAST BLEND", categoria: "VITAMINAS", marca: "BLIFE", imagen: "BLIFE_BYEAST_BLEND.png", menudeo: 290, mayoreo3k: 189, mayoreo6k: 177 },
-  { nombre: "BLIFE BERBERINA", categoria: "OTROS", marca: "BLIFE", imagen: "", menudeo: 340, mayoreo3k: 244, mayoreo6k: 232 },
+  { nombre: "BLIFE BERBERINA", categoria: "OTROS", marca: "BLIFE", imagen: "BLIFE_BERBERINA.png", menudeo: 340, mayoreo3k: 244, mayoreo6k: 232 },
   { nombre: "BLIFE BOTELLA CON FUNDA", categoria: "ACCESORIOS", marca: "BLIFE", imagen: "BLIFE_BOTELLA_CON_FUNDA.png", menudeo: 390, mayoreo3k: 313, mayoreo6k: 301 },
   { nombre: "BLIFE BOTELLA CON TOALLA", categoria: "ACCESORIOS", marca: "BLIFE", imagen: "BLIFE_BOTELLA_CON_TOALLA.png", menudeo: 260, mayoreo3k: 176, mayoreo6k: 164 },
   { nombre: "BLIFE BOTELLA TÉRMICA", categoria: "ACCESORIOS", marca: "BLIFE", imagen: "BLIFE_BOTELLA_TERMICA.png", menudeo: 320, mayoreo3k: 243, mayoreo6k: 231 },
