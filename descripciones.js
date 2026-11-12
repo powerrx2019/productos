@@ -71,7 +71,7 @@ const descripciones = [
   { nombre: "C4 ORIGINAL GRANDE", descripcion: " el pre-entreno #1 en América. Energía avanzada, resistencia, concentración y bombeo muscular. Desde principiantes hasta competidores de élite. 50 servicios." },
   { nombre: "CAFEINA GAT", descripcion: "200 mg de cafeína pura por tableta. Sin azúcar ni calorías. Mejora enfoque, alerta, tiempo de reacción y resistencia. 100 tabletas." },
   { nombre: "CAFEINA MUTANT", descripcion: "200 mg de cafeína anhidra de grado farmacéutico. 240 tabletas producidas bajo inspección gubernamental para máxima pureza. Energiza el entreno y mejora concentración mental." },
-  { nombre: "CARBOTEIN", descripcion: "" },
+  { nombre: "CARBOTEIN", descripcion: "Suplemento en polvo de carbohidratos de acción rápida diseñado para mejorar el rendimiento físico, recargar los depósitos de glucógeno muscular y acelerar la recuperación." },
   { nombre: "CARNIVOR", descripcion: "primer aislado de proteína de carne más concentrado que el suero. A través de extracción, clarificación e hidrólisis entrega proteína pura a tejidos musculares. Más aminoácidos que cualquier otra fuente proteica. 56 servicios." },
   { nombre: "CARNIVOR MASS", descripcion: " ganador de masa con proteína de carne hidrolizada. Sin lactosa ni soya. Para construcción de masa muscular limpia y ganancia de fuerza." },
   { nombre: "CBUM ESSENTIAL CHICO", descripcion: "formulado por 5× Mr. Olympia Chris Bumstead. 4 g L-Citrulina para bombeo, 3.2 g Beta Alanina para combatir fatiga, 200 mg cafeína para energía óptima. 30 servicios." },
