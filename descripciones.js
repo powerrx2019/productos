@@ -111,6 +111,7 @@ const descripciones = [
   { nombre: "DEFIT FIT FEMME", descripcion: "Isolate Whey más Colágeno. Diseñada para mujeres. Fortalece el cuerpo, acelera la recuperación y mejora la elasticidad de la piel. 33 servicios." },
   { nombre: "DEFIT ISOLATE WHEY CHICA", descripcion: "proteína aislada 100% sin carbohidratos. 26 g de proteína por servicio, sin grasas trans ni azúcares añadidos. De fácil digestión. 33 servicios." },
   { nombre: "DEFIT ISOLATE WHEY GRANDE", descripcion: "proteína aislada sin carbohidratos. 26 g de proteína, alta calidad nutricional y pureza para mejores resultados. 73 servicios." },
+  { nombre: "DEFIT ISOLATE WHEY BOTE 4.5 LBS", descripcion: "proteína aislada sin carbohidratos. 26 g de proteína, alta calidad nutricional y pureza para mejores resultados. 4.5 KG, 150 servicios." },
   { nombre: "DEFIT PEPTONAS", descripcion: "péptidos proteicos de alta asimilación para recuperación acelerada y síntesis proteica optimizada." },
   { nombre: "DEMON BCAA", descripcion: " aminoácidos de cadena ramificada: favorecen síntesis proteica, previenen catabolismo, preservan glucógeno, mejoran rendimiento aeróbico y anaeróbico, reducen dolor muscular post-entreno y apoyan el sistema inmunológico. 60 servicios." },
   { nombre: "DEMON DUST", descripcion: "pre-entreno que provee energía gradual por hasta 5 horas continuas. Perfecto para rutina, cardio y salir del gimnasio lleno de energía. 50 servicios." },
