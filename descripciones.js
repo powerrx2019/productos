@@ -61,6 +61,7 @@ const descripciones = [
   { nombre: "BLIFE MYO INOSITOL", descripcion: "apoya sensibilidad a la insulina, función ovárica, equilibrio hormonal y salud metabólica." },
   { nombre: "BLIFE OMEGA 3 CHICO", descripcion: "EPA y DHA para salud cardiovascular, cerebral, articular y reducción de inflamación. Presentación chica." },
   { nombre: "BLIFE OMEGA 3 GRANDE", descripcion: "EPA y DHA de alta concentración para salud cardiovascular, cerebral y articular. Presentación grande." },
+   { nombre: "BLIFE OMEGA 3 PLATINUM", descripcion: "Poderosa concentración de 1000 mg de aceite de anchoa salvaje que aporta EPA y DHA. 90 caps." },
   { nombre: "BLIFE RESVERATROL", descripcion: "potente antioxidante de uva para salud cardiovascular, antiinflamatorio y longevidad celular." },
   { nombre: "BLIFE TRIBULUS", descripcion: "extracto de Tribulus Terrestris para apoyo hormonal, libido, energía y rendimiento deportivo." },
   { nombre: "BLIFE VITAMINA E+BIOTINA", descripcion: "antioxidante potente más biotina para salud de piel, cabello, uñas y sistema nervioso." },
