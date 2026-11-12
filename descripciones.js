@@ -39,6 +39,7 @@ const descripciones = [
   { nombre: "BLIFE ACIDO ALFA LIPOICO", descripcion: "antioxidante universal. Apoya metabolismo energético, sensibilidad a la insulina y salud celular." },
   { nombre: "BLIFE ASHWAGANDA", descripcion: "adaptógeno para reducir cortisol y estrés. Apoya niveles de testosterona, fuerza muscular, resistencia y calidad del sueño." },
   { nombre: "BLIFE B YEAST BLEND", descripcion: "levadura de cerveza rica en vitaminas del complejo B, proteínas, minerales y betaglucanos para energía y sistema inmune." },
+  { nombre: "BLIFE BERBERINA", descripcion: "Fórmula 100% natural! Cada porción ofrece una concentración máxima de 1000 mg de berberina HCI pura." },
   { nombre: "BLIFE BOTELLA CON FUNDA", descripcion: "botella deportiva con funda aislante para mantener tus bebidas a la temperatura ideal" },
   { nombre: "BLIFE BOTELLA CON TOALLA", descripcion: "combo práctico: botella deportiva más toalla de microfibra de alta absorción." },
   { nombre: "BLIFE BOTELLA TÉRMICA", descripcion: "acero inoxidable. Bebidas frías hasta 24h y calientes hasta 12h. Ideal para pre-entrenos." },
